@@ -1,0 +1,17 @@
+# PyTorch stack (nếu cài đặt độc lập với CUDA, xem lưu ý bên dưới)
+torch>=2.0.0
+torchvision
+
+# Core Transformer & Modeling
+transformers==4.46.3
+huggingface-hub>=0.28.0
+accelerate
+timm
+einops
+
+# Image Processing & Visualization
+Pillow
+matplotlib
+
+# Jupyter Notebook Kernel
+ipykernel

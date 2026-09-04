@@ -3,6 +3,17 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Venv 
+venv/
+.venv/
+env/
+
+# Model Weights
+*.safetensors
+*.bin
+*.pt
+epoch_*/
+
 # C extensions
 *.so
 
